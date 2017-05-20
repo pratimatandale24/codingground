@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class NumberTable{
+    public static void main(String []args)
+    {
+        System.out.println("enter no");
+        Scanner sc=new Scanner(System.in);
+        int no=sc.nextInt();
+        //int no=4;
+        System.out.println("This is table for "+no);
+        for(int i=1; i<=10; i++)
+        {
+            int res=no*i;
+            System.out.println(no+"*"+i+"="+res);
+        }
+    }
+}
